@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SingleLibrary_Example' do
+  pod 'SingleLibrary', :path => '../'
+
+  target 'SingleLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
